@@ -24,6 +24,7 @@ async function fetchData(tag){
 
 useEffect(() => {
   fetchData();
+   // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 
 
