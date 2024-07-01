@@ -22,10 +22,10 @@ async function fetchData(tag){
     setLoading(false);
 }
 
-useEffect(() =>{
-fetchData();
-})
-
+useEffect(() => {
+    fetchData(tag);
+  }, [tag]);
+  
 
 return {gif, loading, fetchData};
 }
