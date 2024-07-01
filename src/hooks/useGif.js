@@ -23,9 +23,9 @@ async function fetchData(tag){
 }
 
 useEffect(() => {
-    fetchData(tag);
-  }, [tag]);
-  
+  fetchData();
+}, []);
+
 
 return {gif, loading, fetchData};
 }
