@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -24,7 +24,7 @@ async function fetchData(tag){
 
 useEffect(() =>{
 fetchData();
-}, [])
+})
 
 
 return {gif, loading, fetchData};
