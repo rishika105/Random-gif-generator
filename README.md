@@ -38,8 +38,8 @@ To run this project locally, follow these steps:
 This project requires a Giphy API key to function. Follow these steps to set it up:
 
 1. Sign up at [Giphy Developers](https://developers.giphy.com/) to get an API key.
-2. Once you have your API key, add it to your JavaScript code where the API request is made, typically in `script.js`:
-   ```javascript
+2. Once you have your API key, add it to your JavaScript code where the API request is made, typically in `.env`:
+   ```
    const API_KEY = 'YOUR_API_KEY';
    ```
    
